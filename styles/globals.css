@@ -40,3 +40,56 @@ a {
     color-scheme: dark;
   }
 }
+
+.contact-link {
+  position: relative;
+  color: var(--foreground);
+  text-decoration: none;
+  margin: 0 1rem;
+  padding: 0.25rem 0;
+  transition: color 0.3s;
+}
+
+.contact-link::before,
+.contact-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #ff6ec4, #7873f5);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.contact-link::before {
+  top: 0;
+  transform-origin: left;
+}
+
+.contact-link::after {
+  bottom: 0;
+  transform-origin: right;
+}
+
+.contact-link:hover::before,
+.contact-link:hover::after {
+  transform: scaleX(1);
+}
+
+.contact-link:hover {
+  color: #ffb3ec;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  margin-top: auto;
+  background-color: transparent;
+  text-align: center;
+}
+

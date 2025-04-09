@@ -30,18 +30,13 @@ export default function Home() {
         <p>Welcome to my portfolio</p>
       </div>
 
-      <footer style={{
-        padding: '1rem',
-        display: 'flex',
-        justifyContent: 'center',
-        gap: '2rem',
-        backgroundColor: '#1a1a1a'
-      }}>
+      <footer className="footer">
         <a href="https://www.linkedin.com/in/prakankshapn" className="contact-link">LinkedIn</a>
-        <a href="https://www.instagram.com/rajyogini_prakanksha/" className="contact-link">Instagram</a>
+        <a href="//www.instagram.com/rajyogini_prakanksha/" className="contact-link">Instagram</a>
         <a href="mailto:nagpalprakankshabvpy@gmail.com" className="contact-link">Email</a>
         <a href="https://github.com/Prakanksh" className="contact-link">GitHub</a>
       </footer>
+
     </div>
   );
 }
