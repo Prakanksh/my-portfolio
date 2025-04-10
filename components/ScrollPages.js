@@ -52,7 +52,7 @@ export default function ScrollPages() {
           />
           <h2>About Me</h2>
           <p style={{ maxWidth: '600px', marginTop: '1rem' }}>
-            Hi! I'm Prakanksha — a passionate developer, yoga enthusiast, and spiritual learner.
+            Hi! I&apos;m Prakanksha — a passionate developer, yoga enthusiast, and spiritual learner.
             I enjoy building thoughtful software and bringing creativity into tech.
           </p>
         </div>
