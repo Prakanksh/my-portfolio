@@ -17,7 +17,7 @@ export default function About() {
       <h2>About Me</h2>
       <p style={{ maxWidth: '400px', margin: '0 auto', lineHeight: '1.6' }}>
         I&apos;m Prakanksha — a passionate full-stack developer and yoga instructor.
-        I love blending technology and creativity, and I'm always excited to learn and build meaningful digital experiences.
+        I love blending technology and creativity, and I&apos;m always excited to learn and build meaningful digital experiences.
       </p>
     </div>
   );
